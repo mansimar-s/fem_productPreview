@@ -33,6 +33,7 @@ body {
     font-family: 'Fraunces', sans-serif;
     font-weight: 700;
     font-size: 32px;
+    color: hsl(212, 21%, 14%);
 }
 
 .product-description {
@@ -48,6 +49,13 @@ body {
     font-size: 32px;
     font-weight: 700;
     font-family: 'Fraunces', sans-serif;
+    display: inline;
+}
+
+.product-price-old {
+    display: inline;
+    text-decoration: line-through;
+    font-size: 14px;
 }
 
 .btn-main {
@@ -70,4 +78,8 @@ body {
 .cart-icon {
     margin-right: 10px;
     transform: scale(0.80);
+}
+
+.kicker {
+    transform: translateX(-0.25em)
 }
