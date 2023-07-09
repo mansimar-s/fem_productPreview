@@ -1,3 +1,7 @@
+
+.product-image-desktop {
+    display: none;
+}
 body {
     display: flex;
     justify-content: center;
@@ -7,29 +11,39 @@ body {
 .panel {
     max-width: 95%;
     background-color: hsl(0,0%,100%);
+    border-radius: 15px;
 }
-.product-image{
+
+.detail-container {
+    padding: 1em;
+}
+.product-image-mobile {
 
     width: 100%;
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 
 .kicker {
     font-family: 'Monsterrat', sans-serif;
     color: hsl(228, 12%, 48%);
     font-weight: 500;
+    transform: translateX(-3px) scaleY(0.85);
+    letter-spacing: 3px;
 }
 
 .product-name {
     font-family: 'Fraunces', sans-serif;
     font-weight: 700;
     color: hsl(212, 21%, 14%);
+    line-height: 0.90;
 }
 
 .product-description {
     font-family: 'Monsterrat', sans-serif;
+    font-weight: 500;
     color: hsl(228, 12%, 48%);
+    line-height: 1.5;
 }
 
 .product-price-main {
@@ -45,6 +59,8 @@ body {
     text-decoration: line-through;
     color: hsl(228, 12%, 48%);
     display: inline;
+    line-height: 1.25;    
+    vertical-align: super;
 }
 
 .btn-main {
@@ -53,25 +69,43 @@ body {
     background-color: hsl(158, 36%, 37%);
     color: hsl(0,0%,100%);
     font-family: 'Monsterrat', sans-serif;
+    font-weight: bold;
     padding: 1em;
+    border-radius: 10px;
+    margin-top: 1em;
+    
 }
 
-@media (min-width: 1040px) {
+@media (min-width: 876px) {
 
+    .product-image-mobile {
+        display: none;
+    }
+
+    .product-image-desktop {
+        display: block;
+    }
+    body {
+        height: 100vh;
+        align-items: center;
+    }
     .panel {
         display: flex;
         flex-direction: row;
         max-width: 600px;
     }
 
-    .product-image {
+    .product-image-desktop {
         width: 50%;
+        border-top-left-radius: 15px;
         border-top-right-radius: 0px;
-        border-bottom-left-radius: 4px;
+        border-bottom-left-radius: 15px;
 
     }
 
     .detail-container {
         width: 50%;
+        padding-top: auto;
+        padding: 2em;
     }
 }
