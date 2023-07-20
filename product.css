@@ -76,6 +76,11 @@ body {
     
 }
 
+.btn-main:hover {
+    background-color: hsl(212, 21%, 14%);
+    cursor: pointer;
+}
+
 @media (min-width: 876px) {
 
     .product-image-mobile {
