@@ -33,11 +33,11 @@ Users should be able to:
 ![](./screenshot_Desktop.jpg)
 
 #### The Mobile Layout
-![](.screenshot_Mobile.jpg)
+![](./screenshot_Mobile.jpg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Responsive Card Component using HTML and CSS](https://github.com/mansimar-s/fem_productPreview)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
@@ -49,11 +49,13 @@ Users should be able to:
 - Flexbox
 - Mobile-first workflow
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+#### Mobile First Workflow
+
+#### Switching Elements based on Screen Size - Responsive Design
+
 
 
 ```html
@@ -64,20 +66,10 @@ Use this section to recap over some of your major learnings while working throug
   color: papayawhip;
 }
 ```
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
 
 ## Author
 
-- Website - [Mansimar Singh](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Mansimar Singh](https://direct.me/mansimarsingh)
+- Frontend Mentor - [@mansimar-s](https://www.frontendmentor.io/profile/mansimar-s)
+- Connect with me on Instagram - [@_mansimarsingh](https://www.instagram.com/_mansimarsingh/)
+
