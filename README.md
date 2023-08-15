@@ -11,12 +11,8 @@ This is a solution to the [Product preview card component challenge on Frontend 
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -55,18 +51,19 @@ Users should be able to:
 #### Mobile First Workflow
 
 #### Switching Elements based on Screen Size - Responsive Design
+Check out my detailed article on Medium here: **Publishing Soon!**
 
-
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
+@media (min-width: 876px) {
 
+    .product-image-mobile {
+        display: none;
+    }
+
+    .product-image-desktop {
+        display: block;
+    }
+```
 ## Author
 
 - Website - [Mansimar Singh](https://direct.me/mansimarsingh)
