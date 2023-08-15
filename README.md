@@ -38,7 +38,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Responsive Card Component using HTML and CSS](https://github.com/mansimar-s/fem_productPreview)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [View Live Solution](https://mansimar-s.github.io/fem_productPreview/)
 
 ## My process
 
